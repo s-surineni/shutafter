@@ -1,0 +1,9 @@
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\bin\Debug\ShutAfter.exe
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\bin\Debug\ShutAfter.pdb
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\obj\x86\Debug\ShutAfter.Form1.resources
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\obj\x86\Debug\ShutAfter.Properties.Resources.resources
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\obj\x86\Debug\ShutAfter.exe
+C:\Users\simpli\Documents\Visual Studio 2010\Projects\ShutAfter\ShutAfter\obj\x86\Debug\ShutAfter.pdb

@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.shutAfter = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.hrs = new System.Windows.Forms.TextBox();
-            this.min = new System.Windows.Forms.TextBox();
+            this.start = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.hrs = new System.Windows.Forms.ComboBox();
+            this.min = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // shutAfter
@@ -46,28 +46,15 @@
             this.shutAfter.Text = "Shut After";
             this.shutAfter.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
+            // start
             // 
-            this.button1.Location = new System.Drawing.Point(91, 149);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Set";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // hrs
-            // 
-            this.hrs.Location = new System.Drawing.Point(91, 111);
-            this.hrs.Name = "hrs";
-            this.hrs.Size = new System.Drawing.Size(55, 20);
-            this.hrs.TabIndex = 2;
-            // 
-            // min
-            // 
-            this.min.Location = new System.Drawing.Point(172, 111);
-            this.min.Name = "min";
-            this.min.Size = new System.Drawing.Size(59, 20);
-            this.min.TabIndex = 3;
+            this.start.Location = new System.Drawing.Point(91, 149);
+            this.start.Name = "start";
+            this.start.Size = new System.Drawing.Size(75, 23);
+            this.start.TabIndex = 1;
+            this.start.Text = "Set";
+            this.start.UseVisualStyleBackColor = true;
+            this.start.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -88,16 +75,32 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Minutes";
             // 
+            // hrs
+            // 
+            this.hrs.FormattingEnabled = true;
+            this.hrs.Location = new System.Drawing.Point(91, 103);
+            this.hrs.Name = "hrs";
+            this.hrs.Size = new System.Drawing.Size(50, 21);
+            this.hrs.TabIndex = 6;
+            // 
+            // min
+            // 
+            this.min.FormattingEnabled = true;
+            this.min.Location = new System.Drawing.Point(185, 100);
+            this.min.Name = "min";
+            this.min.Size = new System.Drawing.Size(41, 21);
+            this.min.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.min);
             this.Controls.Add(this.hrs);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.start);
             this.Controls.Add(this.shutAfter);
             this.Name = "Form1";
             this.Text = "ShutAfter";
@@ -109,11 +112,11 @@
         #endregion
 
         private System.Windows.Forms.Label shutAfter;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox hrs;
-        private System.Windows.Forms.TextBox min;
+        private System.Windows.Forms.Button start;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox hrs;
+        private System.Windows.Forms.ComboBox min;
     }
 }
 
